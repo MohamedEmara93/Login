@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="login">
+
+    <div class="container login">
+        <div id="login-form">
+            <div class="login-header">
+                <h2>Login</h2>
+            </div>
+            <div class="form">
+                <div class="form-group first">
+                    <span><i class="fas fa-user"></i></span>
+                    <input type="text" id="userNameLoginInput" class="form-control" placeholder="Username" />
+                </div>
+                <small id="username-login-alert"></small>
+                <div class="form-group">
+                    <span><i class="fas fa-lock"></i></span>
+                    <input type="password" id="passwordLoginInput" class="form-control" placeholder="Password" />
+                </div>
+                <small id="password-login-alert"></small>
+            </div>
+
+            <div class="logBtn">
+                <a id="loginBtn" class="btn">Log In</a>
+            </div>
+        </div>
+        <div class="out-form">
+            Don't Have Account?<a id="signupBtn" href="sign-up.html">Sign Up Now!</a>
+        </div>
+    </div>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
